@@ -16,7 +16,10 @@
             color: blanchedalmond;
             font-family: 'Bellota', cursive;
             position: relative;
-            padding: 0 2%;
+            padding: 1% 2%;
+            text-align: center;
+            margin-bottom: 5px;
+
         }
 
         nav {
@@ -74,6 +77,37 @@
 
         footer h4 {
             color: rgb(241, 255, 47);
+        }
+        .portfolio img{
+            width: 178px;
+            height: 200px;
+            position: absolute;
+            border: 2px solid #460711;
+            transition: 1s;
+        }
+        .fruit-shop :hover {
+            width: 174px;
+           
+        }
+        .portfolio img:hover{
+            width: 204px;
+            height: 258px;
+            z-index: 1;
+        }
+        label{
+            position: relative;
+            color: black;
+            background-color: blanchedalmond;
+            border: 1px solid;
+            left: 5px;
+            font-size: 13px;
+            padding: 4.4px;
+            width: 91%;
+            
+        }
+        .portfolio{
+            height: 200px;
+            display: flex;
         }
     </style>
 
@@ -186,14 +220,14 @@
         <section class="portfolios " id="projects">
             <h1 class="port">My Projects</h1>
         <div class="portfolio">
-            <a href="https://aaminasoomro.github.io/fruitshoptaskjs/"><div class="fruit-shop"><div class="shade"><label>Fruit Shop Task</label></div></div></a>
-            <a href="https://aaminasoomro.github.io/jspractice-eidwishes/" ><div class="wishes"><div class="shade"><label>Eid Wishes</label></div></div></a>
-            <a href="https://aaminasoomro.github.io/daylightmodetask/"><div class="light/dark"><div class="shade"><label>Light And Dark mode</label></div></div></a>
-            <a href="https://aaminasoomro.github.io/changecolors/" > <div class="colors"><div class="shade"><label>Change BG Colors</label></div></div></a>
-            <a href="https://aaminasoomro.github.io/to-do-list/" ><div class="to-do-list"><div class="shade"><label>To-do-list</label></div></div></a>
-            <a href="https://aaminasoomro.github.io/weeklyfirsttask/" > <div class="weekly-project"><div class="shade"><label>Class Task</label></div></div></a> 
-              <a href="https://aaminasoomro.github.io/gmailformtask/"><div class="google"><div class="shade"><label>Google login form</label></div></div></a>
-              <a href="https://aaminasoomro.github.io/to-do-novel-list/"><div class="novel-list"><div class="shade"><label>Novel List</label></div></div></a>
+            <a href="https://aaminasoomro.github.io/fruitshoptaskjs/"><div class="fruit-shop"><div class="shade"><img src="images/fruit-shop.png" alt=""><label>Fruit Shop Task</label></div></div></a>
+            <a href="https://aaminasoomro.github.io/jspractice-eidwishes/" ><div class="wishes"><div class="shade"><img src="images/eid-greeting.png" alt=""><label>Eid Greeting</label></div></div></a>
+            <a href="https://aaminasoomro.github.io/daylightmodetask/"><div class="light/dark"><div class="shade"><img src="images/dat-night-mood.PNG" alt=""><label>Light And Dark mode</label></div></div></a>
+            <a href="https://aaminasoomro.github.io/changecolors/" > <div class="colors"><div class="shade"><img src="images/background-changing.PNG" alt=""><label>Change BG Colors</label></div></div></a>
+            <a href="https://aaminasoomro.github.io/to-do-list/" ><div class="to-do-list"><div class="shade"><img src="images/to-do-list.png" alt=""><label>To-do-list</label></div></div></a>
+            <a href="https://aaminasoomro.github.io/weeklyfirsttask/" > <div class="weekly-project"><div class="shade"><img src="images/documentation.PNG" alt=""><label>documentation webpage</label></div></div></a> 
+            <a href="https://aaminasoomro.github.io/gmailformtask/"><div class="google"><div class="shade"><img src="images/Capture4.PNG" alt=""><label>Google login form</label></div></div></a>
+            <a href="https://aaminasoomro.github.io/to-do-novel-list/"><div class="novel-list"><div class="shade"><img src="images/novel-list.png" alt=""><label>Novel List</label></div></div></a>
           </div>
         </section>
 
@@ -224,7 +258,7 @@
             <div class="col-sm-4 col-md-4 col-lg-4 text-left mt-5 px-2">
                 <h4 class="mb-4 text-uppercase ml-4">Interests</h4>
 
-                <ul style="color: white background-color:black">
+                <ul style="color: white; ">
 
                     <li><strong>Web Developement</strong></li>
 
